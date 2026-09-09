@@ -106,9 +106,6 @@ git push -u origin short-problem-name
 
 For your next contribution, pull upstream again and create a new branch.
 
-This workflow is adapted from
-[Blockrazor's contribution guide](https://github.com/Blockrazor/blockrazor#contributing-to-blockrazor).
-
 ## Deploy to Vercel
 
 1. Import [`soveng/v3`](https://github.com/soveng/v3) at
