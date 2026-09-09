@@ -373,8 +373,8 @@ async function runExperience() {
 
   gsap.to(".city-bloom", { scale: 1.25, opacity: .55, duration: 3.5, ease: "sine.inOut", yoyo: true, repeat: -1 });
 
-  const firstLine = "BUILD THE TOOLS.";
-  const secondLine = "SHIP THE FUTURE.";
+  const firstLine = "Build the tools.";
+  const secondLine = "Ship the future.";
   const totalCharacters = firstLine.length + secondLine.length;
   const firstTarget = document.querySelector(".typed-one");
   const secondTarget = document.querySelector(".typed-two");
