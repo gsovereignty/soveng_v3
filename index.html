@@ -25,7 +25,7 @@
       <span>Sovereign<br>Engineering</span>
     </a>
     <p>Madeira, Portugal<br>32.7607° N, 16.9595° W</p>
-    <a href="#apply" class="nav-apply">Apply <span>↗</span></a>
+    <a href="#contact" class="nav-apply">Contact <span>↗</span></a>
   </nav>
 
   <main>
@@ -175,13 +175,32 @@
       </div>
     </section>
 
-    <section class="finale" id="apply">
+    <section class="finale" id="contact">
       <div class="finale-stage">
-        <p class="section-index">03 / The next cohort</p>
+        <p class="section-index">03 / Get in touch</p>
         <div class="finale-main">
           <p class="finale-small">Some treasure is worth protecting.</p>
           <h2>Build what<br>should <i>exist.</i></h2>
-          <a href="mailto:hello@sovereignengineering.io" class="apply-button"><span>Apply to the program</span><i>↗</i></a>
+          <form class="contact-form" action="https://formspree.io/f/xnqkdogg" method="post">
+            <div class="contact-form-row">
+              <div class="contact-field">
+                <label for="contact-name">Name</label>
+                <input id="contact-name" name="name" type="text" autocomplete="name" placeholder="Satoshi Nakamoto" required>
+              </div>
+              <div class="contact-field">
+                <label for="contact-email">Email</label>
+                <input id="contact-email" name="_replyto" type="email" autocomplete="email" placeholder="satoshin@gmx.net" required>
+              </div>
+            </div>
+            <div class="contact-field contact-message">
+              <label for="contact-message">Message</label>
+              <textarea id="contact-message" name="message" placeholder="What's in an npub?" rows="3" required></textarea>
+            </div>
+            <div class="contact-actions">
+              <button class="contact-reset" type="reset">Clear</button>
+              <button class="contact-submit" type="submit"><span>Send it</span><span aria-hidden="true">↗</span></button>
+            </div>
+          </form>
         </div>
         <footer>
           <p>Sovereign Engineering<br>Madeira, Portugal</p>
