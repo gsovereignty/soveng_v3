@@ -1,0 +1,21 @@
+{
+  "name": "soveng-v3",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Sovereign Engineering program website.",
+  "license": "MIT",
+  "engines": {
+    "node": "^20.19.0 || >=22.12.0"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "gsap": "^3.13.0"
+  },
+  "devDependencies": {
+    "vite": "^7.1.1"
+  }
+}
